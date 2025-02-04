@@ -1,0 +1,23 @@
+body {
+  background-color: azure;
+}
+.wrap {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  color: aliceblue;
+  background-color: black;
+  position: absolute;
+  height: auto;
+  font-family: Orbitron;
+  border-radius: 30%;
+  padding: auto;
+}
+.button:hover {
+  border: 6rem solid black;
+  font-size: 110%;
+  padding-top: 30%;
+}
